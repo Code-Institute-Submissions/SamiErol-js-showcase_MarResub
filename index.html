@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>My JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">My JavaScript</div>
+      <ul id="menu">
+        <li>
+          <a href="#mysample1"><button class="button">My Map</button></a>
+        </li>
+        <li>
+          <a href="#mysample2"><button class="button">Show/Hide</button></a>
+        </li>
+        <li>
+          <a href="#mysample3"><button class="button">Dark Mode</button></a>
+        </li>
+      </ul>
+      </nav>
+    </header>
+    <br />
+    <br />
+    <div id="middle-content">
+      <section id="mapsection">
+        <h2 id="mysample1">Map</h2>
+        <p> See below my favourite places in Ireland</p>
+        <div id="map"></div>
+        <br />
+        <br />
+        <h2 id="mysample2">Show/Hide</h2>
+        <p>Click the button below to show/hide the content</p>
+        <button onclick="showHide()">Click Me</button>
+        <div id="showhide">
+          <p>You found me!</p>
+        </div>
+        <br />
+        <br />
+        	<h2 id="mysample3">Dark Mode</h2>
+          <p>Click below to toggle dark mode</p>
+          <div id="darkMode">
+            <button onclick="darkMode()">Click Me</button>
+          </div>
+          <br />
+        </section>
+      </div>
+      <footer>
+        <ul class="social-networks">
+          <li id="texts">Follow and Contact:</li>
+          <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+          <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+        </ul>
+      </footer>
+      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+      <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9xDVU3eXbv0z9FN4Jao2-wz5q3wkHLnY&callback=initMap"></script>
+      <script src="assets/js/myjs.js"></script>
+    </body>
+</html>
