@@ -4,7 +4,7 @@ html {
 
 .logo {
   text-align: center;
-  font-size: 200%;
+  font-size: 150%;
 
    font-weight: bold;
     border-style:double;
@@ -36,6 +36,7 @@ ul.nav li {
   list-style-type: none;
     padding-top: 4%;
     text-align: center;
+    padding-left: 6%;
 
 
 
@@ -68,6 +69,10 @@ ul.nav li {
   border-radius: 10px;
   font-weight: bold;
 
+}
+
+#darkMode{
+  color: grey;
 }
 
 .darkmodecls {
@@ -178,7 +183,7 @@ i {
     clear: both;
 }
 
-#mapsecion {
+#mysecion {
     margin-bottom: 3%;
     margin-top: 3%;
     word-wrap: normal;
@@ -245,7 +250,7 @@ i {
      }
 
      .social-networks i {
-       font-size: 200%;
+       font-size: 150%;
        margin: 1%;
        padding: 2%;
          color: #777777;
