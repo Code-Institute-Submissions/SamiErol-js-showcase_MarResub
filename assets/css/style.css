@@ -49,6 +49,13 @@ ul.nav li {
 
 }
 
+.justify-content{
+  text-align:justify;
+}
+
+.subheading{
+  font-weight: bold;
+}
 
 .button {
   background-color: #cccccc;
