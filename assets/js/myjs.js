@@ -36,18 +36,27 @@ function moveMap(latval, lngval) {
   map.setCenter(newloc);
 }
 
-//function to show hide content in index
-function showHide() {
-  var x = document.getElementById("showhide");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
 //function to toggle dark Mode
 function darkMode() {
   var identifier = document.body;
   identifier.classList.toggle("darkmodecls");
+}
+
+
+//validate contact form
+function valContact(){
+var name=document.forms["fcontact"]["name"].value;
+var message=document.forms["fcontact"]["message"].value;
+
+  if (name==null || name==""){
+    alert("Name can not be empty");
+    return false;
+  }
+  else if(message.length<20){
+    alert("Message must be at least 20 characters in length");
+    return false;
+  }
+  else{
+      alert("Thank you for getting in touch!");
+  }
 }
