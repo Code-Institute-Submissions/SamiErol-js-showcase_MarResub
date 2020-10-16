@@ -20,6 +20,13 @@ html {
 
 }
 
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 div#map {min-height: 360px;}
 
 ul.nav {
@@ -43,7 +50,25 @@ ul.nav li {
 
 }
 
+#quickRef {
+  font-size: 150%;
+  letter-spacing: 3px;
+  list-style-type: none;
+    text-align: center;
+    padding-left: 6%;
+
+
+
+
+}
+
 #menu li {
+  margin-right: 15px;
+  display: inline-block;
+
+}
+
+#quickRef li {
   margin-right: 15px;
   display: inline-block;
 
@@ -276,6 +301,11 @@ i {
 
 
     #menu {
+
+        clear: both;
+    }
+
+    #quickRef {
 
         clear: both;
     }

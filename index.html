@@ -12,10 +12,30 @@
 </head>
 <body>
   <header>
-
+    <!--Menu/navigation bar-->
+      <div class="logo"><a style="color: black;text-decoration: none;" href="index.html">CV | Sami Erol</a></div>
+  </header>
+  <div class="sticky">
     <nav>
-      <div class="logo"><a style="color: black;text-decoration: none;"href="index.html">CV | Sami Erol</a></div>
       <ul id="menu">
+        <li >
+          <a href="contact.html"><button style="background-color: #1CB7A8;" class="button">Contact Form</button></a>
+        </li>
+        <li id="darkMode">
+            <button class="button" style="background-color: grey;" onclick="darkMode()">Dark Mode</button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <br />
+  <br />
+  <div id="middle-content">
+    <section id="mysection">
+      <!--Initial section, allows users to snap to page contents-->
+      <h2 class="subheading">Page contents</h2>
+      <hr />
+      <p>Click on the below buttons to snap to that section</p>
+      <ul id="quickRef">
         <li>
           <a href="#intro"><button class="button">Personal Details</button></a>
         </li>
@@ -34,160 +54,121 @@
         <li>
           <a href="#ref"><button class="button">Referees</button></a>
         </li>
-        <li>
-          <a href="contact.html"><button style="background-color: #1CB7A8;" class="button">Contact Form</button></a>
-        </li>
-        <li id="darkMode">
-            <a href="#"><button class="button" style="background-color: grey;" onclick="darkMode()">Dark Mode</button></a>
-        </li>
       </ul>
-      </nav>
-    </header>
-    <br />
-    <br />
-    <div id="middle-content">
-      <section id="mysection">
-        <h2 class="subheading" id="intro">Personal details</h2>
-        <hr />
-        <div class="justify-content">
-          <ul>
-            <li><b>Name:</b> Sami Erol</li>
-
-            <li><b>Address:</b> Crumlin, Dublin 12</li>
-
-            <li><b>Phone:</b> 087 642 7775</li>
-
-            <li><b>E-mail:</b> samierol81@gmail.com</li>
-
-            <li><b>Nationality:</b> Turkish & Irish</li>
-          </ul>
-        </div>
-        <br />
-        <br />
-
-        <h2 class="subheading" id="mysample1">Map</h2>
-        <hr />
-        <p>Alanya is my hometown in Turkey and I live in Dublin</p>
-        <div id="map"></div>
-        <br/>
-        <button id="location1" onclick="moveMap(53.342686, -6.267118)">Dublin</button>
-        <button id="location2" onclick="moveMap(36.549362, 31.996994)">Alanya</button>
-        <br />
-        <br />
-
-        <h2 class="subheading" id="exp">Experience</h2>
-        <hr />
-        <h3 style="text-align:center;">Covalen (CPL) May 2019-Present</h3>
-        <p><b>Community Operations Analyst:</b></p>
+      <!--Personal Details-->
+      <h2 class="subheading" id="intro">Personal details</h2>
+      <hr />
+      <div class="justify-content">
         <ul>
-          <li>Recently promoted as an Auditor which involves reviewing team mate’s tickets for quality.</li>
-
-          <li>Become and remain knowledgeable about client’s products and community standards</li>
-
-          <li>Strong interpersonal skills, verbal and written communication skills and most importantly empathy</li>
-
-          <li>Investigate and resolve issues that are reported on client’s platform such as requests for account support and reports of potentially abusive content</li>
-
-          <li>Use market specific knowledge, signals and insights to spot and scope scalable solutions to improve the support of our community of users</li>
-
-          <li>Enforce clients Terms of Use by carefully monitoring reports of abuse on the site</li>
-
-          <li>Review the reported content within agreed turnaround times and standards of quality</li>
-
-          <li>Recognize trends and patterns and escalate issues outside the company policy to the global team.</li>
-
+          <li><b>Name:</b> Sami Erol</li>
+          <li><b>Address:</b> Crumlin, Dublin 12</li>
+          <li><b>Phone:</b> 087 642 7775</li>
+          <li><b>E-mail:</b> samierol81@gmail.com</li>
+          <li><b>Nationality:</b> Turkish & Irish</li>
         </ul>
-        <h3 style="text-align:center;">Career Break July 2017-May 2019</h3>
-        <p><b>Career Break:</b></p>
-        <ul>
-          <li>I have decided to take career break after voluntary redundancy.</li>
-        </ul>
-        <h3 style="text-align:center;"id="">PayPal Ltd April 2012-July 2017</h3>
-        <p><b>Fraud Analyst (Risk Operations):</b></p>
-        <ul>
-          <li>Working fraud queues, service requests and other item processing related to Credit Card, ACH, IP Matches and other Fraud indicator queues on a daily basis.</li>
-
-          <li>Analysing account history and trends to make sure all appropriate restriction/dismissal decisions are made on each account reviewed.</li>
-
-          <li>Continually monitoring cases and reports to identify trends and notify management of information gleaned from that activity.</li>
-
-          <li>Contacting account holders to verify activity and mitigate loss.</li>
-
-          <li>Working on projects based on feedbacks received from teammates and management.</li>
-
-          <li>Involved in a project called ‘Social Mentor’ last 2 years of employment. Mentoring new hires.</li>
-        </ul>
-        <h3 style="text-align:center;">sportingbet.com January 2011-April 2012:</h3>
-        <p><b>VIP Customer Service and Sales Representative</b></p>
-        <ul>
-          <li>Delivering world class customer service aiming at customer satisfaction and loyalty even under time constraints, workflow changes and target pressure.</li>
-
-          <li>Logging inbound and outbound calls in Salesforce (KYC, up-selling and cross-selling).</li>
-
-          <li>Communicating with customers using various channels including telephone and email.</li>
-
-          <li>Updating customer details on the house and back-end systems.</li>
-
-          <li>Collaborating with different departments within the company related to customer’s account management and queries.</li>
-
-          <li>Investigating KYC accounts daily.</li>
-          <li>Contacting lapsed customers by offering promotions on weekly basis.</li>
-          <li>Reaching to existing VIP customers for upselling and cross selling outbound call program on weekly basis.</li>
-          <li>Preparing reports on activity of top customers / financial turnover (weekly and monthly).</li>
-        </ul>
-        <p><b>Customer Service Representative (Customer Operations) May 2010-January 2011:</b></p>
-        <ul>
-          <li>Communicating with customers using various channels including telephone; email and live chat systems.</li>
-
-          <li>Understanding customers’ needs and providing excellence in customer service to build long term relationships.</li>
-
-          <li>Educating customers in the use of the websites, systems and betting processes.</li>
-        </ul>
-
-        <br />
-        <br />
-
-        <h2 id="edu" class="subheading">Education & Training</h2>
-        <hr />
-        <ul>
-          <li>Currently studying online for Diploma on Full Stack Software Developing at codeinstitute.net (Level 6).</li>
-
-          <li>Information Security Certificate ( PayPal)</li>
-
-          <li>SQL, MS Office (Word, Excel, Power Point & Outlook)</li>
-          <li>VIP Agent Certificate “Performance Management” “Call for success” (Communication skills, up-selling & cross-selling)</li>
-          <li>Completed online German course (duolingo.com)</li>
-          <li>Graduated from High School Alanya, Turkey in 1999.</li>
-        </ul>
-        <h2 id="lan" class="subheading">Languages</h2>
-        <hr />
-        <ul>
-          <li>Turkish (Native)</li>
-
-          <li>English (Fluent)</li>
-
-          <li>German (Average)</li>
-        </ul>
-        <h2 id="ref" class="subheading">Referees</h2>
-        <hr />
-        <ul>
-          <li>References available upon request.</li>
-        </ul>
-        <br />
-        <br />
-          <br />
-        </section>
       </div>
-      <footer>
-        <ul class="social-networks">
-          <li id="texts">Follow and Contact:</li>
-          <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-          <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-          <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
-        </ul>
-      </footer>
-      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
-      <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9xDVU3eXbv0z9FN4Jao2-wz5q3wkHLnY&callback=initMap"></script>
-      <script src="assets/js/myjs.js"></script>
-    </body>
+      <br />
+      <br />
+      <!--Google Maps section-->
+      <h2 class="subheading" id="mysample1">Map</h2>
+      <hr />
+      <p>Alanya is my hometown in Turkey and I live in Dublin</p>
+      <div id="map"></div>
+      <br/>
+      <button id="location1" onclick="moveMap(53.342686, -6.267118)">Dublin</button>
+      <button id="location2" onclick="moveMap(36.549362, 31.996994)">Alanya</button>
+      <br />
+      <br />
+      <!--Experience section-->
+      <h2 class="subheading" id="exp">Experience</h2>
+      <hr />
+      <h3 style="text-align:center;">Covalen (CPL) May 2019-Present</h3>
+      <p><b>Community Operations Analyst:</b></p>
+      <ul>
+        <li>Recently promoted as an Auditor which involves reviewing team mate’s tickets for quality.</li>
+        <li>Become and remain knowledgeable about client’s products and community standards</li>
+        <li>Strong interpersonal skills, verbal and written communication skills and most importantly empathy</li>
+        <li>Investigate and resolve issues that are reported on client’s platform such as requests for account support and reports of potentially abusive content</li>
+        <li>Use market specific knowledge, signals and insights to spot and scope scalable solutions to improve the support of our community of users</li>
+        <li>Enforce clients Terms of Use by carefully monitoring reports of abuse on the site</li>
+        <li>Review the reported content within agreed turnaround times and standards of quality</li>
+        <li>Recognize trends and patterns and escalate issues outside the company policy to the global team.</li>
+      </ul>
+      <h3 style="text-align:center;">Career Break July 2017-May 2019</h3>
+      <p><b>Career Break:</b></p>
+      <ul>
+        <li>I have decided to take career break after voluntary redundancy.</li>
+      </ul>
+      <h3 style="text-align:center;">PayPal Ltd April 2012-July 2017</h3>
+      <p><b>Fraud Analyst (Risk Operations):</b></p>
+      <ul>
+        <li>Working fraud queues, service requests and other item processing related to Credit Card, ACH, IP Matches and other Fraud indicator queues on a daily basis.</li>
+        <li>Analysing account history and trends to make sure all appropriate restriction/dismissal decisions are made on each account reviewed.</li>
+        <li>Continually monitoring cases and reports to identify trends and notify management of information gleaned from that activity.</li>
+        <li>Contacting account holders to verify activity and mitigate loss.</li>
+        <li>Working on projects based on feedbacks received from teammates and management.</li>
+        <li>Involved in a project called ‘Social Mentor’ last 2 years of employment. Mentoring new hires.</li>      </ul>
+      <h3 style="text-align:center;">sportingbet.com January 2011-April 2012:</h3>
+      <p><b>VIP Customer Service and Sales Representative</b></p>
+      <ul>
+        <li>Delivering world class customer service aiming at customer satisfaction and loyalty even under time constraints, workflow changes and target pressure.</li>
+        <li>Logging inbound and outbound calls in Salesforce (KYC, up-selling and cross-selling).</li>
+        <li>Communicating with customers using various channels including telephone and email.</li>
+        <li>Updating customer details on the house and back-end systems.</li>
+        <li>Collaborating with different departments within the company related to customer’s account management and queries.</li>
+        <li>Investigating KYC accounts daily.</li>
+        <li>Contacting lapsed customers by offering promotions on weekly basis.</li>
+        <li>Reaching to existing VIP customers for upselling and cross selling outbound call program on weekly basis.</li>
+        <li>Preparing reports on activity of top customers / financial turnover (weekly and monthly).</li>
+      </ul>
+      <p><b>Customer Service Representative (Customer Operations) May 2010-January 2011:</b></p>
+      <ul>
+        <li>Communicating with customers using various channels including telephone; email and live chat systems.</li>
+        <li>Understanding customers’ needs and providing excellence in customer service to build long term relationships.</li>
+        <li>Educating customers in the use of the websites, systems and betting processes.</li>
+      </ul>
+      <br />
+      <br />
+      <!--Education section-->
+      <h2 id="edu" class="subheading">Education & Training</h2>
+      <hr />
+      <ul>
+        <li>Currently studying online for Diploma on Full Stack Software Developing at codeinstitute.net (Level 6).</li>
+        <li>Information Security Certificate ( PayPal)</li>
+        <li>SQL, MS Office (Word, Excel, Power Point & Outlook)</li>
+        <li>VIP Agent Certificate “Performance Management” “Call for success” (Communication skills, up-selling & cross-selling)</li>
+        <li>Completed online German course (duolingo.com)</li>
+        <li>Graduated from High School Alanya, Turkey in 1999.</li>
+      </ul>
+      <!--Languages section-->
+      <h2 id="lan" class="subheading">Languages</h2>
+      <hr />
+      <ul>
+        <li>Turkish (Native)</li>
+        <li>English (Fluent)</li>
+        <li>German (Average)</li>
+      </ul>
+      <!--Referees section-->
+      <h2 id="ref" class="subheading">Referees</h2>
+      <hr />
+      <ul>
+        <li>References available upon request.</li>
+      </ul>
+      <br />
+      <br />
+      <br />
+      </section>
+    </div>
+    <footer>
+      <ul class="social-networks">
+        <li id="texts">Follow and Contact:</li>
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+      </ul>
+    </footer>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9xDVU3eXbv0z9FN4Jao2-wz5q3wkHLnY&callback=initMap"></script>
+    <script src="assets/js/myjs.js"></script>
+  </body>
 </html>

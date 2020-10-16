@@ -1,3 +1,4 @@
+//initiate map variables
 let map;
 var latval = 0.00;
 var lngval = 0.00;
@@ -48,14 +49,17 @@ function valContact(){
 var name=document.forms["fcontact"]["name"].value;
 var message=document.forms["fcontact"]["message"].value;
 
+  //if name empty
   if (name==null || name==""){
     alert("Name can not be empty");
     return false;
   }
+  //if message too short
   else if(message.length<20){
     alert("Message must be at least 20 characters in length");
     return false;
   }
+  //success message
   else{
       alert("Thank you for getting in touch!");
   }
