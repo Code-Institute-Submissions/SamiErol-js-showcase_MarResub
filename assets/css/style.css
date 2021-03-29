@@ -191,25 +191,20 @@ i {
 }
 
 .zoom-img {
-
-    height: 60%;
-    width: 40%;
-     overflow: hidden;
-    position: relative;
-    }
-
-
-    @keyframes hero-zoom {
-      from {
-        transform: scale(1);
-      }
-      to {
-        transform: scale(1.1);
-      }
-    }
+  height: 60%;
+  width: 40%;
+  overflow: hidden;
+  position: relative;
 }
 
-
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
 
 #middle-content {
     clear: both;
@@ -331,30 +326,27 @@ i {
          width: 90%;
      }
 
- .social-networks li {
-       font-size: 70%;
-     }
+  .social-networks li {
+    font-size: 70%;
+  }
+}
 
+@media screen and (max-width: 800px) {
 
-     @media screen and (max-width: 800px) {
+  .social-networks li {
+    font-size: 60%;
+  }
 
-          .social-networks li {
-       font-size: 60%;
-     }
+  #menu {
+    /*width: 100%;*/
+  }
 
-          #menu {
-        /*width: 100%;*/
+  .button {
+    float: left;
+    font-size: 9px;
+  }
 
-      }
-
-             .button {
-        float: left;
-       font-size: 9px;
-
-
-    }
-            h3 {
-             font-size: 20px;
-         }
-
-     }
+  h3 {
+    font-size: 20px;
+  }
+}
