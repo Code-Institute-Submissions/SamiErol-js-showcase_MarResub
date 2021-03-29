@@ -36,15 +36,26 @@ CV
 ### Technologies Used
 
 - [HTML](https://www.w3.org/html/)
- - HTML is the standard format for web pages
+  - HTML is the standard format for web pages
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
- - Cascading Style Sheets (CSS) is a simple mechanism for adding style (e.g., fonts, colours, spacing) to Web documents.
+  - Cascading Style Sheets (CSS) is a simple mechanism for adding style (e.g., fonts, colours, spacing) to Web documents.
 - [JavaScript](https://www.javascript.com/)
- - JavaScript is a text-based programming language that allows you to make web pages interactive.
+  - JavaScript is a text-based programming language that allows you to make web pages interactive.
 - [GitHub](http://github.com)
- - GitHub is a provider of internet hosting for software development and version control using Git.
+  - GitHub is a provider of internet hosting for software development and version control using Git.
 
 ### Testing
+
+Testing all links are working properly - PASS
+Test UX design/responsiveness (mobile/desktop) - PASS
+Test spelling and grammer for mistakes - PASS
+Test page fonts are consistent - PASS
+Scroll bars presence on page - PASS
+Browser compatibility (Chrome, Edge & Firefox) - PASS
+Contact form validation - PASS
+Submitting contact form generates alert to user - PASS
+Dark mode functionality toggle - PASS
+Button shortcuts take user to that section - PASS
 
 ### Deployment
 
