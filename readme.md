@@ -46,16 +46,16 @@ CV
 
 ### Testing
 
-Testing all links are working properly - PASS
-Test UX design/responsiveness (mobile/desktop) - PASS
-Test spelling and grammer for mistakes - PASS
-Test page fonts are consistent - PASS
-Scroll bars presence on page - PASS
-Browser compatibility (Chrome, Edge & Firefox) - PASS
-Contact form validation - PASS
-Submitting contact form generates alert to user - PASS
-Dark mode functionality toggle - PASS
-Button shortcuts take user to that section - PASS
+- Testing all links are working properly - PASS
+- Test UX design/responsiveness (mobile/desktop) - PASS
+- Test spelling and grammer for mistakes - PASS
+- Test page fonts are consistent - PASS
+- Scroll bars presence on page - PASS
+- Browser compatibility (Chrome, Edge & Firefox) - PASS
+- Contact form validation - PASS
+- Submitting contact form generates alert to user - PASS
+- Dark mode functionality toggle - PASS
+- Button shortcuts take user to that section - PASS
 
 ### Deployment
 
